@@ -1,5 +1,8 @@
 # Polkafi
 
+## Meet the Team!
+Ehu Sha, Tyler Rosa, Ajay Gupta, Tejas Kulkarni, Frank
+
 ## About the Project
 We are building a decentralized gap financing platform that enables real-world businesses — including real estate developers, SMEs, startups, and contract holders — to raise capital from retail and institutional investors globally.
 
@@ -37,8 +40,29 @@ Powered by Polkadot's cross-chain capabilities, our platform ensures capital agg
 ## UI Screenshots
 | Page                         | Screenshot |
 |-------------------------------|------------|
-| Investor Dashboard           | ![Investor Dashboard](readme-assets/investor_dashboard.png) |
-| Borrower Application Portal  | ![Borrower Portal](readme-assets/borrower_portal.png) |
-| Milestone Tracking Interface | ![Milestone Tracker](readme-assets/milestone_tracker.png) |
+| Investor Dashboard           | ![Investor Dashboard](![image](https://github.com/user-attachments/assets/f205f82d-a255-44c2-b0f0-a0338324b6c9)) |
+| Borrower Application Portal  | ![Borrower Portal](![image](https://github.com/user-attachments/assets/e4659cca-3e51-4d50-8ee5-3f44c4bf1c11)) |
+| Milestone Tracking Interface | ![Milestone Tracker](![image](https://github.com/user-attachments/assets/27be810a-686c-4735-adbc-d55faef99d02)) |
+
 
 ## Repo Structure
+/contracts - Smart contracts in Ink!
+/frontend - React app
+/scripts - Deployment scripts for Asset Hub
+/readme-assets - Demo video and screenshots
+
+
+## Deployment Details
+Contract deployed to Polkadot Asset Hub
+Block Explorer link: [Insert Link Here]
+
+
+## Our Big Setback
+
+We successfully deployed the smart contract; however, we encountered persistent issues with the faucet. The faucet repeatedly returned an "out of funds" error, preventing us from obtaining DEV tokens needed for testing. Despite having funds sent directly to a key we could use, the balance continued to show 0 DEV.
+
+We attempted several workarounds, including using different devices, IP addresses, and network connections, but none fixed the issue. Additionally, the faucet’s 24-hour cooldown period significantly delayed our progress, and we did not have the time available to wait between attempts.
+
+Due to these challenges, we decided to run the application locally with a setup that closely mirrors the intended deployment. This allowed us to move forward with testing and running the application as planned, despite the issues with the faucet.
+
+![image](https://github.com/user-attachments/assets/7341b3f1-fa8f-4f28-8f3d-7d1c635a2436)
