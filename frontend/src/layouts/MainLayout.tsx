@@ -31,7 +31,7 @@ const MainLayout: React.FC = () => {
       <header className="bg-white border-b border-neutral-200 sticky top-0 z-30">
         <div className="container mx-auto px-4 py-4 flex justify-between items-center">
           <Link to="/" className="text-2xl font-bold text-primary-800 flex items-center">
-            <span className="text-warning-500">De</span>Fund
+            <span className="text-warning-500">Polka</span>Fi
           </Link>
 
           {/* Desktop Navigation */}
@@ -175,7 +175,7 @@ const MainLayout: React.FC = () => {
             </div>
           </div>
           <div className="border-t border-neutral-700 mt-8 pt-8 text-center text-neutral-500 text-sm">
-            <p>&copy; {new Date().getFullYear()} DeFund. All rights reserved.</p>
+            <p>&copy; {new Date().getFullYear()} PolkaFi. All rights reserved.</p>
           </div>
         </div>
       </footer>

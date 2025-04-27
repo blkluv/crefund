@@ -1,3 +1,5 @@
+export type Currency = "ETH" | "USDT" | "USDC";
+
 export interface Loan {
   _id: string;
   loanId: number;
@@ -7,6 +9,7 @@ export interface Loan {
   minBps: number;
   maturity: number;
   funded: string;
+  currency: Currency;
   category?: string;
   title?: string;
   description?: string;

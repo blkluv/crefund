@@ -170,7 +170,7 @@ const CreateListingPage: React.FC = () => {
             
             <div>
               <label htmlFor="principal" className="block text-sm font-medium text-neutral-700 mb-1">
-                Principal Amount (ETH) *
+                Principal Amount (USD) *
               </label>
               <input
                 id="principal"

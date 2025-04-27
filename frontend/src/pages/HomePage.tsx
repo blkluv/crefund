@@ -21,7 +21,7 @@ const HomePage: React.FC = () => {
                 Invest in Real-World Assets on the Blockchain
               </h1>
               <p className="text-lg text-primary-100 mb-8 max-w-xl">
-                DeFund connects asset owners with investors, enabling anyone to participate
+                PolkaFi connects asset owners with investors, enabling anyone to participate
                 in funding real businesses, properties, and more with complete transparency.
               </p>
               <div className="flex flex-wrap gap-4">
@@ -199,7 +199,7 @@ const HomePage: React.FC = () => {
           <h2 className="text-3xl font-semibold mb-4">Ready to Start Investing?</h2>
           <p className="text-primary-100 mb-8 max-w-2xl mx-auto">
             Join thousands of investors who are already earning returns on our platform.
-            Start with as little as 0.01 ETH.
+            Start with as little as 0.01 USDT.
           </p>
           <Link 
             to="/listings" 

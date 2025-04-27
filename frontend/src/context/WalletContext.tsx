@@ -1,4 +1,11 @@
 import React, { createContext, useContext, useState, useEffect, ReactNode } from 'react';
+
+// Extend the Window interface to include the ethereum property
+declare global {
+  interface Window {
+    ethereum?: any;
+  }
+}
 import { ethers } from 'ethers';
 import { WalletStatus } from '../types';
 

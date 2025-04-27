@@ -6,6 +6,7 @@ import App from './App';
 import { WalletProvider } from './context/WalletContext';
 import { ListingsProvider } from './context/ListingsContext';
 import './index.css';
+import React from 'react';
 
 // SWR configuration
 const swrConfig = {

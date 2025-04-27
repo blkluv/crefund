@@ -8,13 +8,14 @@ import { Copy, ExternalLink, Wallet, TrendingUp, LayoutList } from 'lucide-react
 import { withdrawFromLoan } from '../api/listings';
 import { MOCK_ENABLED } from '../config';
 import { mockWithdrawTransaction } from '../utils/mockData';
-
 const ProfilePage: React.FC = () => {
+  const [activeTab, setActiveTab] = useState<"investments" | "listings">("investments");
   const { account, isConnected, balance, openModal } = useWallet();
   const { listings } = useListings();
   
   const [userInvestments, setUserInvestments] = useState<Loan[]>([]);
   const [userListings, setUserListings] = useState<Loan[]>([]);
+  const activeArray = activeTab === "investments" ? userInvestments : userListings;
   const [isWithdrawing, setIsWithdrawing] = useState<Record<string, boolean>>({});
   const [successMessages, setSuccessMessages] = useState<Record<string, string>>({});
   
@@ -129,7 +130,7 @@ const ProfilePage: React.FC = () => {
             <div className="border-t border-neutral-200 pt-4">
               <div className="flex justify-between items-center mb-4">
                 <span className="text-neutral-600">Balance</span>
-                <span className="font-semibold">{Number(balance).toFixed(4)} ETH</span>
+                <span className="font-semibold">{Number(balance).toFixed(4)} USD</span>
               </div>
               
               <div className="flex justify-between items-center mb-4">
@@ -153,10 +154,17 @@ const ProfilePage: React.FC = () => {
                   <TrendingUp className="h-4 w-4" />
                   Your Investments
                 </button>
-                <button className="px-6 py-4 text-neutral-600 hover:text-neutral-800 font-medium flex items-center gap-2">
-                  <LayoutList className="h-4 w-4" />
-                  Your Listings
-                </button>
+
+<button
+  onClick={() => setActiveTab("listings")}
+  className={`px-6 py-4 flex items-center gap-2 font-medium ${
+    activeTab === "listings"
+      ? "text-primary-600 border-b-2 border-primary-600"
+      : "text-neutral-600 hover:text-neutral-800"
+  }`}
+>
+  <LayoutList className="h-4 w-4" /> Your Listings
+</button>
               </div>
             </div>
             

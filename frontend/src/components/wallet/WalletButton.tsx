@@ -21,7 +21,7 @@ const WalletButton: React.FC = () => {
           <div className="p-4">
             <div className="flex justify-between items-center mb-2">
               <span className="text-sm text-neutral-500">Balance</span>
-              <span className="font-medium">{Number(balance).toFixed(4)} ETH</span>
+              <span className="font-medium">{Number(balance).toFixed(4)} USDT</span>
             </div>
             <div className="border-t border-neutral-200 pt-2 mt-2">
               <a 

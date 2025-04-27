@@ -123,7 +123,7 @@ const FundForm: React.FC<FundFormProps> = ({ loan, onSuccess }) => {
                   !useUSDC ? 'btn-primary' : 'btn-secondary'
                 }`}
               >
-                ETH
+                USDT
               </button>
               <button
                 type="button"

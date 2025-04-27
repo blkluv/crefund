@@ -1,5 +1,6 @@
 async function main() {
   const [deployer] = await ethers.getSigners();
+  console.log("Account balance:", (await deployer.getBalance()).toString());
   console.log("Deploying contracts with account:", deployer.address);
   
   // Check if environment variables are set

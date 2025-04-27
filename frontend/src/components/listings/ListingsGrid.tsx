@@ -1,7 +1,7 @@
 import React from 'react';
 import ListingCard from './ListingCard';
 import { Loan } from '../../types';
-import { CircleX } from 'lucide-react';
+import { Circle } from 'lucide-react';
 
 interface ListingsGridProps {
   listings: Loan[];
@@ -25,7 +25,7 @@ const ListingsGrid: React.FC<ListingsGridProps> = ({ listings, isLoading, error 
     return (
       <div className="min-h-[400px] flex items-center justify-center">
         <div className="flex flex-col items-center text-center max-w-sm">
-          <CircleX className="h-12 w-12 text-error-500 mb-3" />
+          <Circle className="h-12 w-12 text-error-500 mb-3" />
           <h3 className="text-xl font-semibold mb-2">Error Loading Listings</h3>
           <p className="text-neutral-600 mb-4">
             We encountered a problem while loading the investment opportunities. Please try again.

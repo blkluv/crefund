@@ -1,14 +1,17 @@
-import { Loan } from "../types";
+import { Currency, Loan } from "../types";
 import { CATEGORIES } from "../config";
 
 const getRandomElement = <T>(array: T[]): T => {
   return array[Math.floor(Math.random() * array.length)];
 };
+const CURRENCIES: Currency[] = ["ETH", "USDT", "USDC"];
+const randCurrency = (): Currency =>
+  CURRENCIES[Math.floor(Math.random() * CURRENCIES.length)];
 
 const getRandomCategory = (): string => {
   return getRandomElement(CATEGORIES).id;
 };
-
+const currency = randCurrency();
 const getRandomTitle = (category: string): string => {
   const titles: Record<string, string[]> = {
     'car': [
@@ -133,6 +136,7 @@ export const getMockListings = (): Promise<Loan[]> => {
   
   for (let i = 1; i <= 20; i++) {
     const category = getRandomCategory();
+    const currency = randCurrency();
     const principal = (Math.floor(Math.random() * 10) + 1) + '000000000000000000'; // 1-10 ETH
     const startBps = Math.floor(Math.random() * 1500) + 500; // 5-20%
     const minBps = Math.floor(startBps * 0.4); // 40% of startBps
@@ -150,6 +154,7 @@ export const getMockListings = (): Promise<Loan[]> => {
       minBps,
       maturity,
       funded,
+      currency,
       category,
       title: getRandomTitle(category),
       description: getRandomDescription(category),
