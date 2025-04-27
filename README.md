@@ -26,8 +26,6 @@ Powered by Polkadot's cross-chain capabilities, our platform ensures capital agg
   - repayLoan(): Borrower repays principal + interest.
   - claimInterest(): Investors claim interest payouts.
 
-- Deployed on Polkadot Asset Hub
-- Block Explorer link: https://moonbase.moonscan.io/address/0xcBB143822176058A864ed9583f56360D51317579
 
 ## Frontend Overview
 - Built using *React.js*
@@ -35,7 +33,7 @@ Powered by Polkadot's cross-chain capabilities, our platform ensures capital agg
 - Displays available projects, investment flows, borrower status, and repayment dashboards.
 
 ## Demo Video
-*[Insert Demo Video Link Here]*
+https://we.tl/t-ggJDIcMTcb
 
 ## UI Screenshots
 | Page                         | Screenshot |
@@ -54,7 +52,7 @@ Powered by Polkadot's cross-chain capabilities, our platform ensures capital agg
 
 ## Deployment Details
 Contract deployed to Polkadot Asset Hub
-Block Explorer link: [Insert Link Here]
+Block Explorer link: (https://moonbase.moonscan.io/address/0xcBB143822176058A864ed9583f56360D51317579)
 
 
 ## Our Big Setback
