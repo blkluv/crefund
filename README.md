@@ -33,7 +33,7 @@ Powered by Polkadot's cross-chain capabilities, our platform ensures capital agg
 - Displays available projects, investment flows, borrower status, and repayment dashboards.
 
 ## Demo Video
-https://we.tl/t-ggJDIcMTcb
+(https://we.tl/t-6BZC1Hz1Bo)
 
 ## UI Screenshots
 | Page                         | Screenshot |
