@@ -1,7 +1,7 @@
 # Polkafi
 
 ## Meet the Team!
-Ehu Sha, Tyler Rosa, Ajay Gupta, Tejas Kulkarni, Frank
+Ehu Shubham Shaw, Tyler Rosa, Ajay Gupta, Tejas Kulkarni, Frank
 
 ## About the Project
 We are building a decentralized gap financing platform that enables real-world businesses — including real estate developers, SMEs, startups, and contract holders — to raise capital from retail and institutional investors globally.
@@ -33,14 +33,14 @@ Powered by Polkadot's cross-chain capabilities, our platform ensures capital agg
 - Displays available projects, investment flows, borrower status, and repayment dashboards.
 
 ## Demo Video
-(https://we.tl/t-6BZC1Hz1Bo)
+[Click Here](https://youtu.be/ZVZikv5-CRg)
 
 ## UI Screenshots
 | Page                         | Screenshot |
 |-------------------------------|------------|
-| Investor Dashboard           | ![Investor Dashboard](![image](https://github.com/user-attachments/assets/f205f82d-a255-44c2-b0f0-a0338324b6c9)) |
-| Borrower Application Portal  | ![Borrower Portal](![image](https://github.com/user-attachments/assets/e4659cca-3e51-4d50-8ee5-3f44c4bf1c11)) |
-| Milestone Tracking Interface | ![Milestone Tracker](![image](https://github.com/user-attachments/assets/27be810a-686c-4735-adbc-d55faef99d02)) |
+| Investor Dashboard           | ![Investor Dashboard](https://github.com/user-attachments/assets/f205f82d-a255-44c2-b0f0-a0338324b6c9) |
+| Borrower Application Portal  | ![Borrower Portal](https://github.com/user-attachments/assets/e4659cca-3e51-4d50-8ee5-3f44c4bf1c11) |
+| Milestone Tracking Interface | ![Milestone Tracker](https://github.com/user-attachments/assets/27be810a-686c-4735-adbc-d55faef99d02) |
 
 
 ## Repo Structure
